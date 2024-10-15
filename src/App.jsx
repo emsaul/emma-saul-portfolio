@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Biography from './Components/Biography/Biography';
 import MainBackground from './Components/MainBackground/MainBackground';
 import Links from './Components/Links/Links';
+import ProjectsSection from './Components/ProjectsSection/ProjectsSection';
 import './App.scss';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             </Routes>
             <Biography />
             <Links />
+            <ProjectsSection />
           </Card>
         </MainBackground>
       </BrowserRouter>
