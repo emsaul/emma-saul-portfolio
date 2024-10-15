@@ -1,0 +1,25 @@
+.projects-section__title {
+    color: white;
+    font-family: RussoOne-Regular;
+    text-align: center;
+    margin-top: 10vh;
+}
+.projects-section__wrapper {
+    margin-top: 10vh;
+    display: flex;
+    gap: .9375rem;
+    width: 90%;
+    margin: 10vh auto;
+}
+.projects-section__link {
+    color: red;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+        color: whitesmoke;
+    }
+}
+.projects-section__img {
+    width: 30%;
+    flex: 1;
+}

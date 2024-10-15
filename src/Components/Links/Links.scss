@@ -1,0 +1,20 @@
+.links__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+.links__icon {
+    animation: heartbeat 0.5s infinite alternate;
+    &:hover {
+        animation: none;
+        opacity: 80%;
+    }
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

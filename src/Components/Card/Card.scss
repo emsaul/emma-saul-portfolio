@@ -9,6 +9,12 @@
     border: red solid .125rem;
     background-color: black;
     overflow-y: auto;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
     @include tablet {
         width: 50%;
     }
