@@ -9,10 +9,20 @@
     border: red solid .125rem;
     background-color: black;
     overflow-y: auto;
+
+    // animation: heartbeat 0.5s infinite alternate;
     @include tablet {
         width: 50%;
     }
     @include desktop {
         width: 30%;
+    }
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
     }
 }
